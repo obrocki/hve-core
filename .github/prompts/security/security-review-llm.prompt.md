@@ -2,7 +2,7 @@
 name: security-review-llm
 agent: Security Reviewer
 description: "Runs OWASP LLM and Agentic vulnerability assessments with codebase profiling for context - Brought to you by microsoft/hve-core"
-argument-hint: "[component-or-path]"
+argument-hint: "[scope=path/to/component]"
 ---
 
 # LLM and Agentic Vulnerability Scan
@@ -12,11 +12,11 @@ argument-hint: "[component-or-path]"
 
 ## Inputs
 
-* ${input:component-or-path}: (Optional) Specific component or directory path to focus the assessment on.
+* ${input:scope}: (Optional) Specific component or directory path to focus the assessment on.
 
 ## Requirements
 
 * Override skill selection with `owasp-llm, owasp-agentic`. The profiler still runs to supply codebase context, but skill detection is bypassed in favor of these two skills.
-* When `${input:component-or-path}` is provided, limit analysis to files within the specified directory or component.
+* When `${input:scope}` is provided, limit analysis to files within the specified directory or component.
 * Run in `audit` mode using the standard assessment and verification workflow.
 * Assess both skills independently through separate Skill Assessor invocations, then consolidate findings in a single report.

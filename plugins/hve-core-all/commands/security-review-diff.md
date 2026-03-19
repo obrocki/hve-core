@@ -1,1 +1,0 @@
-../../../.github/prompts/security/security-review-diff.prompt.md

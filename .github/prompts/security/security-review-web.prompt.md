@@ -2,7 +2,7 @@
 name: security-review-web
 agent: Security Reviewer
 description: "Runs an OWASP Top 10 web vulnerability assessment without codebase profiling - Brought to you by microsoft/hve-core"
-argument-hint: "[component-or-path]"
+argument-hint: "[scope=path/to/component]"
 ---
 
 # Web Vulnerability Scan
@@ -12,11 +12,11 @@ argument-hint: "[component-or-path]"
 
 ## Inputs
 
-* ${input:component-or-path}: (Optional) Specific component or directory path to focus the assessment on.
+* ${input:scope}: (Optional) Specific component or directory path to focus the assessment on.
 
 ## Requirements
 
 * Skip codebase classification and profiling entirely.
 * Apply `owasp-top-10` directly using the `target-skill` fast-path. This bypasses the Codebase Profiler and proceeds directly to the Skill Assessor with the `owasp-top-10` skill.
-* When `${input:component-or-path}` is provided, limit analysis to files within the specified directory or component.
+* When `${input:scope}` is provided, limit analysis to files within the specified directory or component.
 * Run in `audit` mode using the standard assessment and verification workflow.
