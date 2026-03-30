@@ -1,11 +1,11 @@
 ---
-title: Secure by Design Principle Index
-description: Master index of Secure by Design principle identifiers, categories, source mappings, and cross-references
+title: Index of Secure by Design Principles
+description: Index of Secure by Design principle identifiers, categories, source mappings, and cross-references
 ---
 
-# 00 Principle Index
+# Index of Secure by Design Principles
 
-This document provides the master index for the Secure by Design principles.
+This document provides the index for the Secure by Design principles.
 Each entry synthesizes related guidance from the UK Government Secure by Design Principles and the
 Australian ASD/ACSC Secure by Design Foundations into a unified principle area.
 

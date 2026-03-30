@@ -65,7 +65,7 @@ attacks.
 ## OWASP cross-references
 
 * A02:2025 Security Misconfiguration — stale configurations and unused components.
-* A07:2025 Authentication Failures — unrevoled credentials for deprecated services.
+* A07:2025 Authentication Failures — unrevoked credentials for deprecated services.
 * A01:2025 Broken Access Control — residual access paths to retired components.
 * A08:2025 Software or Data Integrity Failures — unmanaged data from deprecated systems.
 

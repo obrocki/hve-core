@@ -42,7 +42,7 @@ secure-by-design practices across the software lifecycle.
 
 * `SKILL.md` — this file (skill entrypoint).
 * `references/` — the Secure by Design normative documents.
-  * `00-principle-index.md` — master index of all principle identifiers, categories, source mappings, and cross-references.
+  * `00-principle-index.md` — index of all principle identifiers, categories, source mappings, and cross-references.
   * `01` through `11` — one document per synthesized principle area merging UK and AU guidance.
 
 ---
