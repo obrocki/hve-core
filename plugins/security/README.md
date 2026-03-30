@@ -72,6 +72,7 @@ copilot plugin install security@hve-core
 | security-review             | Runs an OWASP vulnerability assessment against the current codebase - Brought to you by microsoft/hve-core                               |
 | security-review-llm         | Runs OWASP LLM and Agentic vulnerability assessments with codebase profiling for context - Brought to you by microsoft/hve-core          |
 | security-review-web         | Runs an OWASP Top 10 web vulnerability assessment without codebase profiling - Brought to you by microsoft/hve-core                      |
+| security-review-sbd         | Runs a Secure by Design principles assessment based on UK and Australian government guidance - Brought to you by microsoft/hve-core      |
 | sssc-capture                | Start a new SSSC assessment via guided conversation using the SSSC Planner agent in capture mode                                         |
 | sssc-from-prd               | Start an SSSC assessment from existing PRD artifacts using the SSSC Planner agent                                                        |
 | sssc-from-brd               | Start an SSSC assessment from existing BRD artifacts using the SSSC Planner agent                                                        |

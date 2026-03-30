@@ -64,6 +64,12 @@ owasp-infrastructure:
   - "Bicep files (.bicep)"
   - "CloudFormation templates"
   - "Ansible playbooks"
+secure-by-design:
+  - "SECURITY.md or security policy files"
+  - "Threat model documents"
+  - "CI/CD pipeline configuration (GitHub Actions, Azure Pipelines, Jenkins)"
+  - "Infrastructure as code (Terraform, Bicep, CloudFormation)"
+  - "Deployment configuration (Dockerfile, Kubernetes manifests)"
 ```
 
 ## Codebase Profile Format

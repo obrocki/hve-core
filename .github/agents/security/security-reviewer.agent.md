@@ -114,6 +114,7 @@ Skill resolution: Read the applicable OWASP skill (e.g., `owasp-top-10`, `owasp-
 * owasp-top-10
 * owasp-mcp
 * owasp-infrastructure
+* secure-by-design
 
 ## Subagent Prompt Templates
 

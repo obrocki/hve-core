@@ -164,6 +164,7 @@ copilot plugin install hve-core-all@hve-core
 | security-capture                            | Initiate security planning from existing notes or knowledge using the Security Planner agent in capture mode                                     |
 | security-plan-from-prd                      | Initiate security planning from PRD/BRD artifacts using the Security Planner agent in from-prd mode                                              |
 | security-review-llm                         | Runs OWASP LLM and Agentic vulnerability assessments with codebase profiling for context - Brought to you by microsoft/hve-core                  |
+| security-review-sbd                         | Runs a Secure by Design principles assessment based on UK and Australian government guidance - Brought to you by microsoft/hve-core              |
 | security-review-web                         | Runs an OWASP Top 10 web vulnerability assessment without codebase profiling - Brought to you by microsoft/hve-core                              |
 | security-review                             | Runs an OWASP vulnerability assessment against the current codebase - Brought to you by microsoft/hve-core                                       |
 | sssc-capture                                | Start a new SSSC assessment via guided conversation using the SSSC Planner agent in capture mode                                                 |

@@ -89,6 +89,9 @@ items:
   - path: .github/prompts/security/security-review-web.prompt.md
     kind: prompt
     maturity: experimental
+  - path: .github/prompts/security/security-review-sbd.prompt.md
+    kind: prompt
+    maturity: experimental
   # SSSC Planner Prompts
   - path: .github/prompts/security/sssc-capture.prompt.md
     kind: prompt
