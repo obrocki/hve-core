@@ -5,10 +5,6 @@ license: MIT
 user-invocable: false
 metadata:
   authors: "UK Government Security Group, Australian Signals Directorate (ASD) ACSC"
-  spec_version: "1.0"
-  framework_revision: "1.0.0"
-  last_updated: "2026-03-27"
-  skill_based_on: "https://github.com/chris-buckley/agnostic-prompt-standard"
   content_based_on:
     - "https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/"
     - "https://www.cyber.gov.au/business-government/secure-design/secure-by-design/secure-by-design-foundations"

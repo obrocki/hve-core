@@ -1,6 +1,6 @@
 ---
 name: Codebase Profiler
-description: "Scans the repository to build a technology profile and identify which OWASP skills apply to the codebase - Brought to you by microsoft/hve-core"
+description: "Scans the repository to build a technology profile and identify which security skills apply to the codebase - Brought to you by microsoft/hve-core"
 tools:
   - search/changes
   - search/codebase
@@ -12,7 +12,7 @@ user-invocable: false
 
 # Codebase Profiler
 
-Scan the repository to identify its technology stack and determine which OWASP skills apply to the codebase. Return a structured profile for the parent orchestrator.
+Scan the repository to identify its technology stack and determine which security skills apply to the codebase. Return a structured profile for the parent orchestrator.
 
 ## Purpose
 
@@ -31,7 +31,11 @@ Scan the repository to identify its technology stack and determine which OWASP s
 
 ## Constants
 
+<<<<<<< HEAD
 Skill resolution: Read the applicable OWASP skill by name (e.g., `owasp-top-10`, `owasp-llm`, `owasp-agentic`, `owasp-mcp`, `owasp-infrastructure`).
+=======
+Skill resolution: Read the applicable security skill by name (e.g., `owasp-top-10`, `owasp-llm`, `owasp-agentic`, `secure-by-design`).
+>>>>>>> 496fe469 (feat(agents): update security skill references in agent descriptions and prompts)
 
 ### Technology Signals
 
