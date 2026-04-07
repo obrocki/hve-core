@@ -28,4 +28,5 @@ Skills included:
 - **OWASP LLM Top 10** — OWASP Top 10 for LLM Applications (2025) vulnerability knowledge base
 - **OWASP Agentic Top 10** — OWASP Agentic Security Top 10 vulnerability knowledge base for AI agent systems
 - **OWASP MCP Top 10** - OWASP MCP Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in Model Context Protocol environments
+- **OWASP Infrastructure Top 10** - OWASP Infrastructure Top 10 vulnerability knowledge base for identifying, assessing, and remediating security risks in internal IT infrastructure environments
 - **Security Reviewer Formats** — Format specifications and data contracts for the security reviewer orchestrator and its subagents

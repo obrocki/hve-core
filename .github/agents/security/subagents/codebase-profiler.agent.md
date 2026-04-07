@@ -31,7 +31,7 @@ Scan the repository to identify its technology stack and determine which OWASP s
 
 ## Constants
 
-Skill resolution: Read the applicable OWASP skill by name (e.g., `owasp-top-10`, `owasp-llm`, `owasp-agentic`, `owasp-mcp`).
+Skill resolution: Read the applicable OWASP skill by name (e.g., `owasp-top-10`, `owasp-llm`, `owasp-agentic`, `owasp-mcp`, `owasp-infrastructure`).
 
 ### Technology Signals
 
@@ -54,6 +54,16 @@ owasp-top-10:
 owasp-mcp:
   - "MCP server or client code"
   - "MCP tool definitions"
+owasp-infrastructure:
+  - "Dockerfile"
+  - "docker-compose.yml"
+  - ".github/workflows/**"
+  - "Jenkinsfile"
+  - "terraform/**"
+  - "Terraform files (.tf)"
+  - "Bicep files (.bicep)"
+  - "CloudFormation templates"
+  - "Ansible playbooks"
 ```
 
 ## Codebase Profile Format
